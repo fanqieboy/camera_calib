@@ -1,0 +1,29 @@
+# config.yaml
+board:
+  width: 6
+  height: 6
+  square_size: 55.0
+  spacing: 16.5
+
+io:
+  input_dir: "../images/"
+  prefix: ""
+  file_extension: ".jpg"
+  save_result: true
+  result_images_save_folder: "../output/"
+  point_file: "../output/"
+
+camera:
+  model: "kannala-brandt"
+  name: "camera"
+
+processing:
+  use_opencv: true
+  view_results: true
+  verbose: true
+  resize_scale: 1.0
+  cropper:
+    width: 0
+    height: 0
+    center_x: 0
+    center_y: 0

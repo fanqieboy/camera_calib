@@ -1,0 +1,22 @@
+# 忽略 C++ 编译生成的二进制文件和中间件
+build/
+bin/
+lib/
+*.o
+*.a
+*.so
+
+# 忽略本地生成的仿真数据（保持仓库整洁）
+images/*.jpg
+images/*.yaml
+
+# 按照要求忽略 output/ 目录下的生成结果
+output/**/*.jpg
+output/**/*.txt
+
+# 忽略 IDE 和系统产生的杂项文件
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.user
