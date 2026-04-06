@@ -16,6 +16,7 @@ output/**/*.txt
 
 # 忽略 IDE 和系统产生的杂项文件
 .vscode/
+.cache/
 .idea/
 .DS_Store
 *.swp
