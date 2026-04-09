@@ -10,9 +10,9 @@ lib/
 images/*.jpg
 images/*.yaml
 
-# 按照要求忽略 output/ 目录下的生成结果
-output/**/*.jpg
-output/**/*.txt
+# 按照要求忽略 output/ 目录下的生成结果，但保留 output/ 文件夹本身
+output/*
+!output/.gitkeep
 
 # 忽略 IDE 和系统产生的杂项文件
 .vscode/
