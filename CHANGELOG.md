@@ -1,5 +1,10 @@
 # Changelog (April 2026)
 
+## [1.1] - 2026-04-09
+### Changed
+- **输出目录优化**: 将标定结果 YAML 文件的生成路径从输入目录 (`images`) 更改为输出目录 (`output`)，实现了所有产出文件的统一管理。
+- **版本号升级**: 更新 `april_calib_test.cpp` 中的版本宏至 `1.1`。
+
 ## [1.0] - 2026-04-06
 ### Added
 - **版本定义**: 在 `april_calib_test.cpp` 中通过宏定义 `MAJOR_VERSION 1` 和 `MINOR_VERSION 0` 正式确定了项目版本号。

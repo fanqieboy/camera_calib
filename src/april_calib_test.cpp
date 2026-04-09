@@ -12,7 +12,7 @@
 #include "camera_model/apriltag_frontend/GridCalibrationTargetAprilgrid.hpp"
 
 #define MAJOR_VERSION 1
-#define MINOR_VERSION 0
+#define MINOR_VERSION 1
 
 
 int main(int argc, char** argv)
@@ -186,7 +186,7 @@ int main(int argc, char** argv)
 
     std::cout << "Calibrate done." << std::endl;
 
-    std::string calib_result_path = cfg.input_dir + cfg.camera_name + "_camera_calib.yaml";
+    std::string calib_result_path = cfg.result_images_save_folder + cfg.camera_name + "_camera_calib.yaml";
 
     try {
         calibration.writeParams(calib_result_path);
